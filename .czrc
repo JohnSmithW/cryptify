@@ -1,0 +1,18 @@
+{
+  "path": "cz-git",
+  "useEmoji": false,
+  "scopes": [
+    "ui",
+    "backend",
+    "api",
+    "auth",
+    "tests",
+    "deps"
+  ],
+  "allowCustomScopes": true,
+  "allowBreakingChanges": [
+    "feat",
+    "fix"
+  ],
+  "subjectLimit": 72
+}
