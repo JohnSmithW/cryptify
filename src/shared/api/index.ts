@@ -1,1 +1,1 @@
-export { axiosInstance } from './instance/api';
+export { coingeckoInstance } from './instance/api';

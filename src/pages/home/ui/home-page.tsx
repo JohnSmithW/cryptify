@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import { axiosInstance } from '@/shared/api';
+import { coingeckoInstance } from '@/shared/api';
 
 const HomePage = () => {
   const [price, setPrice] = useState(null);
   const getCryptoPrice = async (symbol = 'bitcoin') => {
-    const res = await axiosInstance.get(
+    const res = await coingeckoInstance.get(
       `/simple/price?ids=${symbol}&vs_currencies=usd`
     );
     return res.data[symbol].usd;

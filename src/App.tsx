@@ -10,9 +10,12 @@ function App() {
   const queryClient = new QueryClient();
 
   useEffect(() => {
-    WebApp.expand(); // Expand the Web App to full screen
+    WebApp.expand();
     WebApp.MainButton.setText('Track Crypto');
-    WebApp.MainButton.show();
+    // WebApp.MainButton.show();
+    // WebApp.MainButton.onClick(() => {
+
+    // })
   }, []);
 
   return (
